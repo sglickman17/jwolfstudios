@@ -98,6 +98,7 @@ DEPENDENCIES
   database_cleaner
   factory_girl
   faker
+  json
   pg
   pry
   rack (= 1.5.2)
@@ -110,4 +111,4 @@ DEPENDENCIES
   sinatra-contrib
 
 BUNDLED WITH
-   1.13.1
+   1.13.7

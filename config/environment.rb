@@ -15,10 +15,10 @@ require 'bcrypt'
 require 'pg'
 require 'active_record'
 require 'logger'
-
+require 'json'
 require 'sinatra'
 require "sinatra/reloader" if development?
-
+require 'net/http'
 require 'erb'
 
 # Some helper constants for path-centric logic
